@@ -1,4 +1,4 @@
-package demo01.two_sum;
+package question01.two_sum;
 
 import java.util.HashMap;
 import java.util.Map;

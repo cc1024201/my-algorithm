@@ -1,4 +1,4 @@
-package demo01.two_sum;
+package question01.two_sum;
 
 public class Solution01 {
     public int[] twoSum(int[] nums, int target) {
@@ -10,6 +10,6 @@ public class Solution01 {
                 }
             }
         }
-        return new int[0];
+        throw new IllegalArgumentException("No two sum solution");
     }
 }
