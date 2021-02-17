@@ -1,9 +1,9 @@
-package question01.two_sum;
+package q1.a2;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution02 {
+class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
